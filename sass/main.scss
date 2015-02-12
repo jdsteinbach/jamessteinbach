@@ -1,0 +1,256 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+@import 'normalize.min';
+
+$breakpoints: (
+  small: 480px,
+  medium: 720px,
+  large: 960px,
+  wide: 1200px
+);
+@mixin breakpoint($name) {
+  @if not map-has-key($breakpoints, $name) {
+    @warn "Warning: `#{$name}` is not a valid breakpoint name.";
+  }
+  @else {
+    @media (min-width: map-get($breakpoints, $name)) {
+      @content;
+    }
+  }
+}
+
+html {
+    color: #fff;
+    font-size: 1em;
+    line-height: 1;
+}
+* {
+	box-sizing: border-box;
+}
+::-moz-selection {
+    background: #fff;
+    background: rgba(#fff, .75);
+    text-shadow: none;
+}
+
+::selection {
+    background: #fff;
+    background: rgba(#fff, .75);
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+html,
+body {
+	height: 100%;
+}
+body {
+	font-family: Texta, Avenir Next, Avenir, Verdana, sans-serif;
+	font-size: 16px;
+	background: #666 url(/img/james-bkgd.jpg) no-repeat center fixed;
+	background-size: cover;
+	font-weight: 200;
+	text-align: right;
+	@include breakpoint(small) {
+		font-size: 20px;
+	}
+	&::after {
+		content: '';
+		display: inline-block;
+		vertical-align: middle;
+		height: 100%;
+		width: 0;
+	}
+}
+.container {
+	width: 55%;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: left;
+	padding: 1em;
+	@include breakpoint(small) {
+		width: 50%;
+	}
+}
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+// 	text-align: center;
+}
+li {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	@include breakpoint(medium) {
+		width: auto;
+		padding: 0 .5em .5em 0;
+	}
+}
+
+a {
+	&,
+	&:visited {
+		color: #fff;
+		text-decoration: none;
+		display: inline-block;
+		padding: 1em 0;
+		line-height: 1;
+		transition: background-color .3s;
+
+		@include breakpoint(medium) {
+			padding: .5em 1em;
+			border: 2px solid currentColor;			
+			border-radius: .25em;
+		}
+	}
+
+	&:focus,
+	&:active,
+	&:hover {
+		@include breakpoint(medium) {
+			background-color: rgba(255,255,255,.25);
+		}
+	}
+}
+
+h1 {
+	font-size: 138.2%;
+	font-weight: inherit;
+	margin: 0;
+	@include breakpoint(small) {
+		font-size: 200%;	
+	}
+}
+
+.name {
+	font-size: 161.8%;
+	display: block;
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
