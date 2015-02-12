@@ -3,13 +3,10 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    James Steinbach -- Front-End Architect -- @jdsteinbach
 
-# THANKS
-
-    <name>
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3
+    HTML5, CSS3, Sass & Compass
     jQuery, Modernizr
