@@ -1,0 +1,5 @@
+#/!/bin/bash
+node-sass \
+  --include-path styles \
+  --include-path ../sass \
+  ../sass/main.scss ../css/main.css
