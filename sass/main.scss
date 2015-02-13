@@ -1,8 +1,9 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 
-@import "normalize.min";
+@import 'normalize.min';
+@import 'fonts';
 
-$breakpoints: (small: 480px, medium: 760px, large: 960px, wide: 1200px);
+$breakpoints: (small: 480px, medium: 750px, large: 960px, wide: 1200px);
 
 @mixin breakpoint($name) {
 	@if not map-has-key($breakpoints, $name) {
@@ -85,10 +86,14 @@ body {
 body {
 	font-family: Texta, Avenir Next, Avenir, Verdana, sans-serif;
 	font-size: 16px;
-	background: #666 url(/img/james-bkgd.jpg) no-repeat 40% center fixed;
+	background: #666 url(/img/james-bkgd-750x500.jpg) no-repeat 40% center fixed;
 	background-size: cover;
 	font-weight: 300;
 	text-align: right;
+
+	@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+		background-image: url(/img/james-bkgd-1500x1000.jpg);
+	}
 
 	@include breakpoint(small) {
 		font-size: 20px;
@@ -98,11 +103,40 @@ body {
 		font-size: 24px;
 		background-position: center center;
 	}
+	
+	@media screen and (min-height: 500px) {
+		background-image: url(/img/james-bkgd-1500x1000.jpg);
+		@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+			background-image: url(/img/james-bkgd-2250x1500.jpg);
+		}
+	}
 
 	@include breakpoint(large) {
 		font-size: 28px;
+		background-image: url(/img/james-bkgd-1500x1000.jpg);
+
+		@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+			background-image: url(/img/james-bkgd-2250x1500.jpg);
+		}
+	}
+	
+	@media screen and (min-height: 1000px) {
+		background-image: url(/img/james-bkgd-1500x1000.jpg);
+	
+		@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+			background-image: url(/img/james-bkgd-2250x1500.jpg);
+		}
 	}
 
+	@include breakpoint(wide) {
+		font-size: 32px;
+		background-image: url(/img/james-bkgd-1500x1000.jpg);
+
+		@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+			background-image: url(/img/james-bkgd-3000x2000.jpg);
+		}
+	}
+		
 	&::after {
 		content: '';
 		display: inline-block;
@@ -119,7 +153,6 @@ body {
 	text-align: center;
 	padding: 1em;
 	text-shadow: 0 .25em .25em rgba(#464646, .625);
-
 
 	&::before {
 		content: '';
@@ -166,7 +199,7 @@ ul {
 	text-align: center;
 
 	@include breakpoint(medium) {
-		max-width: 16em;
+// 		max-width: 16em;
 	}
 
 	@include breakpoint(large) {
