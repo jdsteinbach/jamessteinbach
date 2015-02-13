@@ -1,0 +1,1 @@
+<?php header( 'Location: http://jamessteinbach.com/pdf/Resume.pdf' ) ; ?>
