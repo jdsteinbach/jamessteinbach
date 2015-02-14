@@ -1,8 +1,7 @@
-/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
-
 #test {
-	color: blue;
+	transform: translateX(50%);
 }
+
 @import 'normalize.min';
 @import 'fonts';
 
@@ -155,7 +154,7 @@ body {
 	vertical-align: middle;
 	text-align: center;
 	padding: 1em;
-	text-shadow: 0 .25em .25em rgba(#464646, .625);
+	text-shadow: 0 .25em .25em rgba(#222, .625);
 
 	&::before {
 		content: '';

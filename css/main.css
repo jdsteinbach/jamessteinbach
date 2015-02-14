@@ -1,6 +1,7 @@
-/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 #test {
-  color: blue; }
+  -webkit-transform: translateX(50%);
+      -ms-transform: translateX(50%);
+          transform: translateX(50%); }
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
@@ -73,7 +74,6 @@ figure {
   margin: 1em 40px; }
 
 hr {
-  -moz-box-sizing: content-box;
   box-sizing: content-box;
   height: 0; }
 
@@ -118,8 +118,6 @@ input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer
 
 input[type=search] {
   -webkit-appearance: textfield;
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
   box-sizing: content-box; }
 
 input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
@@ -280,7 +278,7 @@ body {
   vertical-align: middle;
   text-align: center;
   padding: 1em;
-  text-shadow: 0 .25em .25em rgba(70, 70, 70, 0.625); }
+  text-shadow: 0 .25em .25em rgba(34, 34, 34, 0.625); }
   .container::before {
     content: '';
     display: block;
@@ -333,7 +331,9 @@ a, a:visited {
   padding: 1em 0;
   line-height: 1;
   transition: background-color .3s;
-  transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
   border: 1px solid currentColor;
   width: 6em;
   height: 3.5em;
@@ -352,10 +352,16 @@ a, a:visited {
     left: 0;
     border: inherit;
     border-radius: inherit;
-    transform-origin: center center;
-    transform: rotate(-60deg); }
+    -webkit-transform-origin: center center;
+        -ms-transform-origin: center center;
+            transform-origin: center center;
+    -webkit-transform: rotate(-60deg);
+        -ms-transform: rotate(-60deg);
+            transform: rotate(-60deg); }
   a::after, a:visited::after {
-    transform: rotate(60deg); }
+    -webkit-transform: rotate(60deg);
+        -ms-transform: rotate(60deg);
+            transform: rotate(60deg); }
 a:focus, a:active, a:hover {
   border-color: #5CACC4; }
 
@@ -400,3 +406,4 @@ a:focus, a:active, a:hover {
     widows: 3; }
   h2, h3 {
     page-break-after: avoid; } }
+/*# sourceMappingURL=main.css.map */
