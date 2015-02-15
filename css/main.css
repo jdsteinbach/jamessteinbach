@@ -289,10 +289,14 @@ body {
     bottom: 0;
     left: 0;
     z-index: -1; }
+  .container.resume::before {
+    background: rgba(70, 70, 70, 0.8); }
   @media (min-width: 750px) {
     .container {
       width: 62.5%;
       text-shadow: 0 .25em .25em rgba(70, 70, 70, 0.625); }
+      .container.resume {
+        width: 50%; }
       .container::before {
         display: none; } }
 
@@ -303,6 +307,31 @@ h1 {
   @media (min-width: 480px) {
     h1 {
       font-size: 200%; } }
+  .resume h1 {
+    margin: .5em 0;
+    font-size: 200%;
+    font-weight: bold; }
+    .resume h1 + h2 {
+      margin-top: -.4em;
+      font-size: 123.6%; }
+
+h2 {
+  margin: 1em 0 .5em;
+  font-size: 161.8%;
+  font-weight: 200;
+  text-transform: uppercase; }
+
+h3 {
+  margin: .5em 0;
+  font-size: 123.6%;
+  font-weight: bold;
+  text-align: left; }
+
+h4 {
+  margin: .5em 0;
+  font-size: 100%;
+  text-align: left;
+  font-weight: bold; }
 
 .name {
   font-size: 161.8%;
@@ -314,56 +343,76 @@ ul {
   margin: 2em auto 0;
   padding: 0;
   text-align: center; }
+  .resume ul {
+    margin-top: 0;
+    margin-bottom: 1em;
+    text-align: left;
+    list-style: disc; }
 
 li {
   display: inline-block;
   margin: .5em .25em 1.5em;
   padding: 0;
   width: auto; }
+  .resume li {
+    display: list-item;
+    margin-left: 1.75em;
+    margin-bottom: .5em;
+    line-height: 1.4; }
 
 p {
   margin: 2em 0 1em; }
+  .resume p {
+    text-align: left;
+    margin: 0 0 1em;
+    line-height: 1.4; }
 
 a, a:visited {
   color: #fff;
-  text-decoration: none;
-  display: inline-block;
-  padding: 1em 0;
-  line-height: 1;
-  transition: background-color .3s;
-  -webkit-transform: rotate(360deg);
-      -ms-transform: rotate(360deg);
-          transform: rotate(360deg);
-  border: 1px solid currentColor;
-  width: 6em;
-  height: 3.5em;
-  line-height: 1.5em;
-  border-width: 0 1px;
-  border-radius: .25em;
-  position: relative;
-  text-align: center;
+  text-decoration: none; }
+  a.hex, a:visited.hex {
+    display: inline-block;
+    padding: 1em 0;
+    line-height: 1;
+    transition: background-color .3s;
+    -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+            transform: rotate(360deg);
+    border: 1px solid currentColor;
+    width: 6em;
+    height: 3.5em;
+    line-height: 1.5em;
+    border-width: 0 1px;
+    border-radius: .25em;
+    position: relative;
+    text-align: center;
+    transition: color .3s, border-color .3s; }
+    a.hex::before, a.hex::after, a:visited.hex::before, a:visited.hex::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      border: inherit;
+      border-radius: inherit;
+      -webkit-transform-origin: center center;
+          -ms-transform-origin: center center;
+              transform-origin: center center;
+      -webkit-transform: rotate(-60deg);
+          -ms-transform: rotate(-60deg);
+              transform: rotate(-60deg); }
+    a.hex::after, a:visited.hex::after {
+      -webkit-transform: rotate(60deg);
+          -ms-transform: rotate(60deg);
+              transform: rotate(60deg); }
+  a:focus, a:active, a:hover, a:visited:focus, a:visited:active, a:visited:hover {
+    border-color: #5CACC4; }
+.resume a {
+  border-bottom: 1px solid currentColor;
   transition: color .3s, border-color .3s; }
-  a::before, a::after, a:visited::before, a:visited::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    border: inherit;
-    border-radius: inherit;
-    -webkit-transform-origin: center center;
-        -ms-transform-origin: center center;
-            transform-origin: center center;
-    -webkit-transform: rotate(-60deg);
-        -ms-transform: rotate(-60deg);
-            transform: rotate(-60deg); }
-  a::after, a:visited::after {
-    -webkit-transform: rotate(60deg);
-        -ms-transform: rotate(60deg);
-            transform: rotate(60deg); }
-a:focus, a:active, a:hover {
-  border-color: #5CACC4; }
+  .resume a:hover {
+    color: #add5e1; }
 
 .clearfix:before, .clearfix:after {
   content: " ";
