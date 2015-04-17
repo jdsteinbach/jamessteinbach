@@ -154,7 +154,7 @@ body {
 	vertical-align: middle;
 	text-align: center;
 	padding: 1em;
-	text-shadow: 0 .25em .25em rgba(#222, .625);
+	text-shadow: 0 .25em .25em rgba(#000, .625);
 
 	&::before {
 		content: '';
@@ -167,14 +167,14 @@ body {
 		left: 0;
 		z-index: -1;
 	}
-	
+
 	&.resume::before {
 		background: rgba(#464646, .8);
 	}
 
 	@include breakpoint(medium) {
 		width: 62.5%;
-		text-shadow: 0 .25em .25em rgba(#464646, .625);
+		text-shadow: 0 .25em .25em rgba(#000, .625);
 		&.resume {
 			width: 50%;
 		}
@@ -235,7 +235,7 @@ ul {
 	margin: 2em auto 0;
 	padding: 0;
 	text-align: center;
-	
+
 	.resume & {
 		margin-top: 0;
 		margin-bottom: 1em;
@@ -259,7 +259,7 @@ li {
 
 p {
 	margin: 2em 0 1em;
-	
+
 	.resume & {
 		text-align: left;
 		margin: 0 0 1em;
@@ -287,7 +287,7 @@ a {
 			position: relative;
 			text-align: center;
 			transition: color .3s, border-color .3s;
-	
+
 			&::before,
 			&::after {
 				content: '';
@@ -301,12 +301,12 @@ a {
 				transform-origin: center center;
 				transform: rotate(-60deg);
 			}
-	
+
 			&::after {
 				transform: rotate(60deg);
 			}
 		}
-	
+
 		&:focus,
 		&:active,
 		&:hover {

@@ -278,7 +278,7 @@ body {
   vertical-align: middle;
   text-align: center;
   padding: 1em;
-  text-shadow: 0 .25em .25em rgba(34, 34, 34, 0.625); }
+  text-shadow: 0 .25em .25em rgba(0, 0, 0, 0.625); }
   .container::before {
     content: '';
     display: block;
@@ -294,7 +294,7 @@ body {
   @media (min-width: 750px) {
     .container {
       width: 62.5%;
-      text-shadow: 0 .25em .25em rgba(70, 70, 70, 0.625); }
+      text-shadow: 0 .25em .25em rgba(0, 0, 0, 0.625); }
       .container.resume {
         width: 50%; }
       .container::before {
