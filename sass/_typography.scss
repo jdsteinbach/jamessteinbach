@@ -1,0 +1,214 @@
+body {
+  color: $color-white;
+  font-family: $font-text;
+  font-size: 1em;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: antialiased;
+  text-align: right;
+
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures contextual;
+  -moz-font-feature-settings: "kern", "liga", "clig", "dlig", "swsh", "calt";
+  -ms-font-feature-settings: "kern", "liga", "clig", "dlig", "swsh", "alt";
+  -webkit-font-feature-settings: "kern", "liga", "clig", "dlig", "swsh", "calt";
+  font-feature-settings: "kern", "liga", "clig", "dlig", "swsh", "calt";
+
+  @include breakpoint(small) {
+    font-size: (20em / 16);
+  }
+
+  @include breakpoint(medium) {
+    font-size: (24em/16);
+  }
+
+  @include breakpoint(large) {
+    font-size: (28em/16);
+  }
+
+  @include breakpoint(wide) {
+    font-size: (32em/16);
+  }
+}
+
+h1 {
+  font-size: 138.2%;
+  font-weight: inherit;
+  margin: 0;
+
+  @include breakpoint(small) {
+    font-size: 200%;
+  }
+
+  .resume & {
+    margin: .5em 0;
+    font-size: 200%;
+    font-weight: bold;
+
+    + h2 {
+      margin-top: -.3em;
+      font-size: 123.6%;
+    }
+  }
+}
+
+h2 {
+  margin: 1em 0 .5em;
+  font-size: 161.8%;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+h3 {
+  margin: 1em 0;
+  font-size: 123.6%;
+  font-weight: bold;
+  text-align: left;
+}
+
+h4 {
+  margin: 1em 0;
+  font-size: 100%;
+  text-align: left;
+  font-weight: bold;
+  font-variant: small-caps;
+  text-transform: lowercase;
+}
+
+ul {
+  list-style: none;
+  margin: 2em auto 0;
+  padding: 0;
+  text-align: center;
+
+  .resume & {
+    margin-top: 0;
+    margin-bottom: 1em;
+    text-align: left;
+    list-style: disc;
+  }
+}
+
+li {
+  display: inline-block;
+  margin: .5em .25em 1.5em;
+  padding: 0;
+  width: auto;
+  .resume & {
+    display: list-item;
+    margin-left: 1.75em;
+    margin-bottom: .5em;
+    line-height: 1.4;
+  }
+}
+
+p {
+  margin: 2em auto 1em;
+
+  .resume & {
+    text-align: left;
+    margin: 0 auto 1em;
+    line-height: 1.4;
+  }
+}
+
+a {
+  &,
+  &:visited {
+    color: $color-white;
+    text-decoration: none;
+
+    &.hex {
+      display: inline-block;
+      padding: 1em 0;
+      line-height: 1;
+      transition: background-color .3s;
+      transform: rotate(360deg);
+      border: 1px solid currentColor;
+      width: 6em;
+      height: 3.5em;
+      line-height: 1.5em;
+      border-width: 0 2px;
+      border-radius: .25em;
+      position: relative;
+      text-align: center;
+      transition: color .3s, border-color .3s;
+
+      &::before,
+      &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        border: inherit;
+        border-radius: inherit;
+        transform-origin: center center;
+        transform: rotate(-60deg);
+      }
+
+      &::after {
+        transform: rotate(60deg);
+      }
+    }
+
+    &:focus,
+    &:active,
+    &:hover {
+      border-color: $color-blue;
+    }
+  }
+
+  .resume & {
+    border-bottom: 1px solid currentColor;
+    transition: color .3s, border-color .3s;
+
+    &:hover {
+      color: mix($color-blue, $color-white);
+    }
+  }
+}
+
+
+/*
+ HP Fancy Text
+ */
+
+
+.name {
+  display: block;
+  font-family: $font-heading;
+  font-weight: bold;
+  font-size: 161.8%;
+}
+// .name {
+//   color: rgba($color-white, .85);
+//   font-family: Salome, Palatino, serif;
+//   font-size: 161.8%;
+//   display: table;
+//   display: flex;
+//   margin: 250px auto;
+//   border: 4px solid currentColor;
+
+//   span {
+//     // display: table-cell;
+//     flex: 1 1 50%;
+//     padding: .33em .33em .25em .33em;
+//     text-align: center;
+
+//     -webkit-mix-blend-mode: lighten;
+//     mix-blend-mode: lighten;
+//   }
+// }
+
+// .fname {
+//   background-color: rgba($color-white, .85);
+//   color: $color-black;
+//   -webkit-mix-blend-mode: lighten;
+//   mix-blend-mode: lighten;
+// }
+
+// .lname {
+//   background-color: $color-black;
+// }

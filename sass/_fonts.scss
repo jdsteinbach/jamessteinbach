@@ -30,7 +30,7 @@
 		url("/fonts/2D4C2D_A_0.woff") format("woff"),
 		url("/fonts/2D4C2D_A_0.ttf") format("truetype");
 	font-style: italic;
-	font-weight: 300;
+	font-weight: normal;
 }
 
 
@@ -42,5 +42,21 @@
 		url("/fonts/2D4C2D_B_0.woff") format("woff"),
 		url("/fonts/2D4C2D_B_0.ttf") format("truetype");
 	font-style: normal;
-	font-weight: 300;
+	font-weight: normal;
 }
+
+@mixin fonts($family, $file, $style, $weight) {
+  @font-face {
+    font-family: $family;
+    src: url("/fonts/#{$file}.woff2") format("woff2"),
+         url("/fonts/#{$file}.woff") format("woff"),
+         url("/fonts/#{$file}.ttf") format("truetype");
+    font-style: $style;
+    font-weight: $weight;
+  }
+}
+
+@include fonts(Salome, salome-webfont, normal, normal);
+@include fonts(Salome, salome-webfont, normal, bold);
+@include fonts(Salome, salome-webfont-italic, italic, normal);
+@include fonts(Salome, salome-webfont-italic, italic, bold);

@@ -1,0 +1,14 @@
+$color-blue:  #5cacc4;
+$color-white: #fff;
+$color-gray:  #464646;
+$color-black: #000;
+
+$font-text:    Palatino, Palatino Linotype, serif;
+$font-heading: Salome, $font-text;
+
+$breakpoints: (
+  small: 480px,
+  medium: 750px,
+  large: 960px,
+  wide: 1200px
+);
