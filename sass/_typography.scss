@@ -29,9 +29,6 @@ body {
 
   font-kerning: normal;
   font-variant-ligatures: common-ligatures contextual;
-  -moz-font-feature-settings: "kern", "liga", "clig", "dlig", "swsh", "calt";
-  -ms-font-feature-settings: "kern", "liga", "clig", "dlig", "swsh", "alt";
-  -webkit-font-feature-settings: "kern", "liga", "clig", "dlig", "swsh", "calt";
   font-feature-settings: "kern", "liga", "clig", "dlig", "swsh", "calt";
 }
 
