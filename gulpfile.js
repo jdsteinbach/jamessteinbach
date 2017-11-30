@@ -24,7 +24,7 @@
   /* Environment variables */
   var _src_dir  = '';
   var _scss_dir = _src_dir + 'sass/';
-  var _css_dir  = _src_dir + 'css/'
+  var _css_dir  = _src_dir + 'styles/'
 
   gulp.task('sass', function() {
     var _postcss = [

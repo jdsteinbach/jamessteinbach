@@ -1,20 +1,20 @@
 :root {
-  font-size: em(22);
+  font-size: em(18);
 
   @include breakpoint(small) {
-    font-size: em(28);
+    font-size: em(20);
   }
 
   @include breakpoint(medium) {
-    font-size: em(28);
+    font-size: em(20);
   }
 
   @include breakpoint(large) {
-    font-size: em(32);
+    font-size: em(24);
   }
 
   @include breakpoint(wide) {
-    font-size: em(36);
+    font-size: em(30);
   }
 }
 
@@ -123,12 +123,14 @@ a {
     text-decoration: none;
 
     &.hex {
+      $hex-size: 5em;
       display: inline-block;
+      margin-bottom: 1em;
       padding: 0;
-      width: 6em;
-      height: 6em;
+      width: $hex-size;
+      height: $hex-size;
       position: relative;
-      line-height: 6em;
+      line-height: $hex-size;
       text-align: center;
       transform: rotate(360deg);
       transition: color .3s, border-color .3s;
@@ -139,7 +141,7 @@ a {
         top: 0; right: 0; bottom: 0; left: 0;
         background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300"><polygon fill="none" stroke="white" stroke-width="3" points="300,150 225,280 75,280 0,150 75,20 225,20"></polygon></svg>');
         background-size: contain;
-        transform: rotate(30deg);
+        transform: rotate(-90deg);
         transition: transform .3s ease-in-out;
       }
 
