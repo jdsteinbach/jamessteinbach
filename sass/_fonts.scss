@@ -1,51 +1,4 @@
-// @font-face {
-// 	font-family: 'Texta';
-// 	src: url("/fonts/2D4C2D_2_0.eot");
-// 	src: url("/fonts/2D4C2D_2_0.eot?#iefix") format("embedded-opentype"),
-// 		url("/fonts/2D4C2D_2_0.woff2") format("woff2"),
-// 		url("/fonts/2D4C2D_2_0.woff") format("woff"),
-// 		url("/fonts/2D4C2D_2_0.ttf") format("truetype");
-// 	font-style: italic;
-// 	font-weight: bold;
-// }
-
-
-// @font-face {
-// 	font-family: 'Texta';
-// 	src: url("/fonts/2D4C2D_3_0.eot");
-// 	src: url("/fonts/2D4C2D_3_0.eot?#iefix") format("embedded-opentype"),
-// 		url("/fonts/2D4C2D_3_0.woff2") format("woff2"),
-// 		url("/fonts/2D4C2D_3_0.woff") format("woff"),
-// 		url("/fonts/2D4C2D_3_0.ttf") format("truetype");
-// 	font-style: normal;
-// 	font-weight: bold;
-// }
-
-
-// @font-face {
-// 	font-family: 'Texta';
-// 	src: url("/fonts/2D4C2D_A_0.eot");
-// 	src: url("/fonts/2D4C2D_A_0.eot?#iefix") format("embedded-opentype"),
-// 		url("/fonts/2D4C2D_A_0.woff2") format("woff2"),
-// 		url("/fonts/2D4C2D_A_0.woff") format("woff"),
-// 		url("/fonts/2D4C2D_A_0.ttf") format("truetype");
-// 	font-style: italic;
-// 	font-weight: normal;
-// }
-
-
-// @font-face {
-// 	font-family: 'Texta';
-// 	src: url("/fonts/2D4C2D_B_0.eot");
-// 	src: url("/fonts/2D4C2D_B_0.eot?#iefix") format("embedded-opentype"),
-// 		url("/fonts/2D4C2D_B_0.woff2") format("woff2"),
-// 		url("/fonts/2D4C2D_B_0.woff") format("woff"),
-// 		url("/fonts/2D4C2D_B_0.ttf") format("truetype");
-// 	font-style: normal;
-// 	font-weight: normal;
-// }
-
-@mixin fonts($family, $file, $style, $weight) {
+@mixin fonts($family, $file, $style: normal, $weight: normal) {
   @font-face {
     font-family: $family;
     src: url("/fonts/#{$file}.woff2") format("woff2"),
@@ -56,7 +9,7 @@
   }
 }
 
-@include fonts(Salome, salome-webfont, normal, normal);
-@include fonts(Salome, salome-webfont, normal, bold);
-@include fonts(Salome, salome-webfont-italic, italic, normal);
-@include fonts(Salome, salome-webfont-italic, italic, bold);
+@include fonts(Texta, 2D4C2D_B_0);
+@include fonts(Texta, 2D4C2D_A_0, italic);
+@include fonts(Texta, 2D4C2D_3_0, $weight: bold);
+@include fonts(Texta, 2D4C2D_2_0, italic, bold);

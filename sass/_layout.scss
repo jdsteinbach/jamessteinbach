@@ -4,17 +4,23 @@ body {
 }
 
 body {
-  &::after {
+  &::before {
     content: '';
     display: inline-block;
     vertical-align: middle;
     height: 100%;
-    width: 0;
+    width: 1px;
+  }
+
+  @include breakpoint(medium) {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 40em;
   }
 }
 
 .container {
-  width: 98%;
+  width: calc(100% - 1px);
   display: inline-block;
   vertical-align: middle;
   text-align: center;
@@ -27,7 +33,7 @@ body {
     content: '';
     display: block;
     position: fixed;
-    background: rgba($color-gray, 0.625);
+    background: rgba($color-gray, 0.65);
     top: 0;
     right: 0;
     bottom: 0;
@@ -35,12 +41,11 @@ body {
     z-index: -1;
   }
 
-  &.resume{
-    margin-top: 100px;
+  &.resume {
     margin-top: 5vw;
 
-    ::before {
-      background: rgba($color-gray, .8);
+    &::before {
+      background: rgba($color-gray, 0.85);
     }
   }
 

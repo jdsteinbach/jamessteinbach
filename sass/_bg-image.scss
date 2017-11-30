@@ -1,44 +1,8 @@
 body {
-  background: #666 url(/img/james-bkgd-750x500.jpg) no-repeat 40% center fixed;
+  background: $color-gray url(/img/headshot-wide-triangles.svg) no-repeat 40% center fixed;
   background-size: cover;
 
-  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-    background-image: url(/img/james-bkgd-1500x1000.jpg);
-  }
-
   @include breakpoint(medium) {
-    background-position: center center;
-  }
-
-  @media screen and (min-height: 500px) {
-    background-image: url(/img/james-bkgd-1500x1000.jpg);
-
-    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-      background-image: url(/img/james-bkgd-2250x1500.jpg);
-    }
-  }
-
-  @include breakpoint(large) {
-    background-image: url(/img/james-bkgd-1500x1000.jpg);
-
-    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-      background-image: url(/img/james-bkgd-2250x1500.jpg);
-    }
-  }
-
-  @media screen and (min-height: 1000px) {
-    background-image: url(/img/james-bkgd-1500x1000.jpg);
-
-    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-      background-image: url(/img/james-bkgd-2250x1500.jpg);
-    }
-  }
-
-  @include breakpoint(wide) {
-    background-image: url(/img/james-bkgd-1500x1000.jpg);
-
-    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-      background-image: url(/img/james-bkgd-3000x2000.jpg);
-    }
+    background-position: center;
   }
 }

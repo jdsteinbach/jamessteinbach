@@ -1,3 +1,23 @@
+:root {
+  font-size: em(22);
+
+  @include breakpoint(small) {
+    font-size: em(28);
+  }
+
+  @include breakpoint(medium) {
+    font-size: em(28);
+  }
+
+  @include breakpoint(large) {
+    font-size: em(32);
+  }
+
+  @include breakpoint(wide) {
+    font-size: em(36);
+  }
+}
+
 body {
   color: $color-white;
   font-family: $font-text;
@@ -13,22 +33,6 @@ body {
   -ms-font-feature-settings: "kern", "liga", "clig", "dlig", "swsh", "alt";
   -webkit-font-feature-settings: "kern", "liga", "clig", "dlig", "swsh", "calt";
   font-feature-settings: "kern", "liga", "clig", "dlig", "swsh", "calt";
-
-  @include breakpoint(small) {
-    font-size: (20em / 16);
-  }
-
-  @include breakpoint(medium) {
-    font-size: (24em/16);
-  }
-
-  @include breakpoint(large) {
-    font-size: (28em/16);
-  }
-
-  @include breakpoint(wide) {
-    font-size: (32em/16);
-  }
 }
 
 h1 {
@@ -120,36 +124,33 @@ a {
 
     &.hex {
       display: inline-block;
-      padding: 1em 0;
-      line-height: 1;
-      transition: background-color .3s;
-      transform: rotate(360deg);
-      border: 1px solid currentColor;
+      padding: 0;
       width: 6em;
-      height: 3.5em;
-      line-height: 1.5em;
-      border-width: 0 2px;
-      border-radius: .25em;
+      height: 6em;
       position: relative;
+      line-height: 6em;
       text-align: center;
+      transform: rotate(360deg);
       transition: color .3s, border-color .3s;
 
-      &::before,
-      &::after {
+      &::before {
         content: '';
         position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        border: inherit;
-        border-radius: inherit;
-        transform-origin: center center;
-        transform: rotate(-60deg);
+        top: 0; right: 0; bottom: 0; left: 0;
+        background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300"><polygon fill="none" stroke="white" stroke-width="3" points="300,150 225,280 75,280 0,150 75,20 225,20"></polygon></svg>');
+        background-size: contain;
+        transform: rotate(30deg);
+        transition: transform .3s ease-in-out;
       }
 
-      &::after {
-        transform: rotate(60deg);
+      &:focus,
+      &:active,
+      &:hover {
+        color: $color-blue;
+
+        &::before {
+          transform: rotate(270deg);
+        }
       }
     }
 
@@ -170,45 +171,9 @@ a {
   }
 }
 
-
-/*
- HP Fancy Text
- */
-
-
 .name {
   display: block;
   font-family: $font-heading;
   font-weight: bold;
   font-size: 161.8%;
 }
-// .name {
-//   color: rgba($color-white, .85);
-//   font-family: Salome, Palatino, serif;
-//   font-size: 161.8%;
-//   display: table;
-//   display: flex;
-//   margin: 250px auto;
-//   border: 4px solid currentColor;
-
-//   span {
-//     // display: table-cell;
-//     flex: 1 1 50%;
-//     padding: .33em .33em .25em .33em;
-//     text-align: center;
-
-//     -webkit-mix-blend-mode: lighten;
-//     mix-blend-mode: lighten;
-//   }
-// }
-
-// .fname {
-//   background-color: rgba($color-white, .85);
-//   color: $color-black;
-//   -webkit-mix-blend-mode: lighten;
-//   mix-blend-mode: lighten;
-// }
-
-// .lname {
-//   background-color: $color-black;
-// }

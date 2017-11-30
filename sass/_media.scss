@@ -2,27 +2,3 @@ img {
   height: auto;
   max-width: 100%;
 }
-
-.headline {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  height: auto;
-  opacity: .85;
-  width: 100%;
-  z-index: -1;
-
-  text {
-    fill: currentColor;
-    font-family: $font-heading;
-    font-style: italic;
-    text-shadow: none;
-
-    font-kerning: normal;
-    -moz-font-feature-settings: "kern", "liga", "clig", "dlig", "calt", "swsh";
-    -ms-font-feature-settings: "kern", "liga", "clig", "dlig", "calt", "swsh";
-    -webkit-font-feature-settings: "kern", "liga", "clig", "dlig", "calt", "swsh";
-    font-feature-settings: "kern", "liga", "clig", "dlig", "calt", "swsh";
-  }
-}

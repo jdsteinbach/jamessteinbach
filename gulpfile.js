@@ -56,4 +56,7 @@
     gulp.watch(_scss_dir + '**/*.scss', ['sass']);
     gulp.watch('**/*.html').on('change', reload);
   });
+
+  gulp.task('default', ['watch']);
 }());
+
