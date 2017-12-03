@@ -9,3 +9,14 @@
     }
   }
 }
+
+@mixin animate() {
+  $name: unique-id();
+  animation-name: $name;
+
+  @at-root {
+    @keyframes #{$name} {
+      @content;
+    }
+  }
+}
