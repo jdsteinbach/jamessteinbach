@@ -38,14 +38,7 @@
       .pipe(sass({outputStyle: 'expanded'}))
       .pipe( postcss(_postcss) )
       .pipe(gulp.dest(_css_dir))
-      .pipe(reload({stream: true}))
-      .on( 'error', errorAlert )
-      .pipe(
-        $.notify({
-          message: 'Styles have been compiled and minified',
-          onLast:   true
-        })
-      );
+      .pipe(reload({stream: true}));
   });
 
   gulp.task('watch', ['sass'], function() {
