@@ -12,22 +12,26 @@ body {
   height: 100vh;
 
   path {
+    animation-name: triangles;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+    transform-origin: center;
 
-    @include animate {
-      0%, 100% {
-        opacity: 1;
-      }
-      50% {
-        opacity: .7;
-      }
-    }
-
-    @for $i from 1 through 150 {
+    @for $i from 1 through 100 {
       &:nth-child(#{$i}) {
         animation-delay: random(100) / 100 * 4s;
       }
     }
+  }
+}
+
+@keyframes triangles {
+  0%, 100% {
+    opacity: 1;
+    transform: none;
+  }
+  50% {
+    opacity: .85;
+    transform: scale(1.0125);
   }
 }
