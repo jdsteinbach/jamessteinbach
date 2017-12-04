@@ -1,8 +1,33 @@
 body {
-  background: $color-gray url(/img/headshot-wide-triangles.svg) no-repeat 40% center fixed;
-  background-size: cover;
+  background-color: $color-gray;
+}
 
-  @include breakpoint(medium) {
-    background-position: center;
+#headshot {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+
+  path {
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+    @include animate {
+      0%, 100% {
+        opacity: 1;
+      }
+      50% {
+        opacity: .7;
+      }
+    }
+
+    @for $i from 1 through 150 {
+      &:nth-child(#{$i}) {
+        animation-delay: random(100) / 100 * 4s;
+      }
+    }
   }
 }

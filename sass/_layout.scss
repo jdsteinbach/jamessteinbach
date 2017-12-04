@@ -4,14 +4,6 @@ body {
 }
 
 body {
-  &::before {
-    content: '';
-    display: inline-block;
-    vertical-align: middle;
-    height: 100%;
-    width: 1px;
-  }
-
   @include breakpoint(medium) {
     margin-right: auto;
     margin-left: auto;
@@ -20,9 +12,11 @@ body {
 }
 
 .container {
-  width: calc(100% - 1px);
-  display: inline-block;
-  vertical-align: middle;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
   text-align: center;
   padding: 1em;
   position: relative;
@@ -51,6 +45,8 @@ body {
 
   @include breakpoint(medium) {
     width: 62.5%;
+    margin-right: 0;
+    margin-left: auto;
 
     &.resume {
       width: 50%;
