@@ -23,6 +23,7 @@ body {
   position: relative;
   text-shadow: 0 .125em .125em rgba($color-black, .625);
   z-index: 1;
+  pointer-events: none;
 
   > * {
     width: 100%;

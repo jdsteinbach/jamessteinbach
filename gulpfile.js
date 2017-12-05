@@ -47,6 +47,7 @@
       port: '4883'
     });
     gulp.watch(_scss_dir + '**/*.scss', ['sass']);
+    gulp.watch('js/**/*.js').on('change', reload);
     gulp.watch('**/*.html').on('change', reload);
   });
 
