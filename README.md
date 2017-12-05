@@ -4,3 +4,4 @@ Source code behind jamessteinbach.com
 
 * HTML5, CSS3, Sass, SVG
 * [Texta Font](https://www.myfonts.com/fonts/latinotype/texta/)
+* *Coming Soon* [GSAP](https://greensock.com/gsap)
