@@ -8,5 +8,5 @@
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3, Sass & Compass
-    jQuery, Modernizr
+    HTML5, CSS3, Sass, SVG
+    Texta Font - https://www.myfonts.com/fonts/latinotype/texta/
