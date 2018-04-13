@@ -19,7 +19,7 @@
     "gulp-load-plugins": "^1.2.2",
     "gulp-notify": "^3.0.0",
     "gulp-postcss": "^6.1.1",
-    "gulp-sass": "^2.0.4"
+    "gulp-sass": "^4.0.0"
   },
   "scripts": {
     "postinstall": "gulp build"

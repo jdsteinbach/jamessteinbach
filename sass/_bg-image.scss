@@ -35,3 +35,13 @@ body {
     transform: scale(1.015);
   }
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .hex::before {
+    transition: none !important;
+  }
+
+  path {
+    animation: none !important;
+  }
+}
