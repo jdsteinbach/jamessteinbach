@@ -12,13 +12,13 @@
   },
   "homepage": "https://github.com/jdsteinbach/jamessteinbach",
   "devDependencies": {
-    "autoprefixer": "^6.3.6",
+    "autoprefixer": "^9.0.0",
     "browser-sync": "^2.12.5",
-    "glob": "^5.0.14",
+    "glob": "^7.0.0",
     "gulp": "^3.9.0",
     "gulp-load-plugins": "^1.2.2",
     "gulp-notify": "^3.0.0",
-    "gulp-postcss": "^6.1.1",
+    "gulp-postcss": "^8.0.0",
     "gulp-sass": "^4.0.0"
   },
   "scripts": {
