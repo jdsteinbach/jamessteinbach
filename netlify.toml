@@ -1,0 +1,2 @@
+command = "eleventy"
+publish = "_site"

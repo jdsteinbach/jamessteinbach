@@ -12,17 +12,19 @@
   },
   "homepage": "https://github.com/jdsteinbach/jamessteinbach",
   "devDependencies": {
-    "autoprefixer": "^9.0.0",
+    "@11ty/eleventy": "^0.10.0",
+    "autoprefixer": "^9.7.5",
     "browser-sync": "^2.26.7",
-    "glob": "^7.0.0",
-    "gulp": "^3.9.0",
-    "gulp-load-plugins": "^1.2.2",
-    "gulp-notify": "^3.0.0",
-    "gulp-postcss": "^8.0.0",
-    "gulp-sass": "^4.0.0",
-    "natives": "^1.1.6"
+    "cssnano": "^4.1.10",
+    "markdown-it": "^10.0.0",
+    "postcss": "^7.0.27",
+    "postcss-image-inliner": "^3.0.9",
+    "sass": "^1.26.3"
   },
   "scripts": {
-    "postinstall": "gulp build"
+    "build": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve",
+    "start": "npx @11ty/eleventy --serve",
+    "serve:debug": "DEBUG=Eleventy* npx @11ty/eleventy --serve"
   }
 }
