@@ -15,6 +15,7 @@ body {
     animation-name: triangles;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+    animation-play-state: paused;
     transform-origin: center;
 
     @for $i from 1 through 100 {
@@ -22,6 +23,10 @@ body {
         animation-delay: random(100) / 100 * 4s;
       }
     }
+  }
+
+  &:hover path {
+    animation-play-state: running;
   }
 }
 
