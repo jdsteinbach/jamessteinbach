@@ -1,3 +1,3 @@
 [context.branch-deploy]
   command = "npm run build"
-  base = "_site"
+  base = "/_site"
