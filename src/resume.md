@@ -26,6 +26,29 @@ Ph.D. New Testament Interpretation, BJU (2014)
 
 ## Experience
 
+### Senior UX Developer, [DockYard](https://dockyard.com) (2017–Present)
+
+Led team initiatives in Web Components, Shadow DOM, and CSS Custom Properties
+
+Mentored other front-end developers
+
+Managed templates and style systems for Progressive Web Apps
+
+Implemented advanced ARIA patterns for interactive components
+
+#### Featured client work (under NDA)
+
+* Built custom media playback Web Components in StencilJS
+* Built embeddable data-driven microsite in StencilJS
+* Set up Storybook to run instances of components for development and testing
+* Maintained & added features to international product site
+
+#### Featured Project: [HighTide.earth](https://hightide.earth)
+
+* Resolved scroll performance issues on mobile devices
+* Styled moon phase indicator to respond to data-driven changes
+* Developed performant gradient animation for dynamic app background
+
 ### CEO/Owner, Summit Web Services (2017–Present)
 
 Currently running a consulting/contracting business with availability: [hire me](https://jdsteinbach.com/hire/ "Hire me for consultation or contract work").
