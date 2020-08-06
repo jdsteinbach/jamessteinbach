@@ -150,7 +150,7 @@ Designed and built sites with custom code and WordPress CMS
 
 Optimized sites for multiple devices with responsive layout
 
-#### Featured Project: [dissertation.jamessteinbach.com](http://dissertation.jamessteinbach.com)
+#### Featured Project: [dissertation.jamessteinbach.com](https://dissertation.jamessteinbach.com)
 
 * Wrote custom jQuery interactivity for displaying detailed content on a single-page WordPress site
 
@@ -168,7 +168,7 @@ Expanded existing site with focus on content-driven page design
 
 ### Technology
 
-* HTML5 + CSS(3): animation, advanced layout, advanced design - examples at [codepen.io/jdsteinbach](http://codepen.io/jdsteinbach)
+* HTML5 + CSS(3): animation, advanced layout, advanced design - examples at [codepen.io/jdsteinbach](https://codepen.io/jdsteinbach)
 * WordPress: custom theme and plugin development
 * Sass: extended default functions with Breakpoint, Susy, Compass, Bourbon, and Neat Sass: wrote custom mixins and functions - examples at [gist.github.com/jdsteinbach](https://gist.github.com/jdsteinbach)
 * jQuery + JavaScript: add interactivity to sites (see examples in “Experience” section)
@@ -177,11 +177,11 @@ Expanded existing site with focus on content-driven page design
 ### Communication
 
 * Customer Care: Phone and Email Support
-* Advanced Research and Technical Writing: [jamessteinbach.com/blog](http://jamessteinbach.com/blog) | [sitepoint.com/author/jsteinbach](http://sitepoint.com/author/jsteinbach)
+* Advanced Research and Technical Writing: [jdsteinbach.com](https://jdsteinbach.com) | [sitepoint.com/author/jsteinbach](https://sitepoint.com/author/jsteinbach)
 * Public Speaking: several local Meetups, online WP Summit
 
 ### References
 
 Available on request.
 
-_[Download this resume as a PDF](http://jamessteinbach.com/pdf/Resume.pdf)_
+_[Download this resume as a PDF](https://jamessteinbach.com/pdf/Resume.pdf)_
