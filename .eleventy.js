@@ -10,6 +10,7 @@ module.exports = eleventyConfig => {
   }))
 
   // Passthrough files
+  eleventyConfig.addPassthroughCopy('src/pdf')
   eleventyConfig.addPassthroughCopy('src/_redirects')
   eleventyConfig.addPassthroughCopy('src/fonts')
   eleventyConfig.addPassthroughCopy('src/favicon.ico')
