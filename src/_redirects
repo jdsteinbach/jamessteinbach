@@ -1,2 +1,3 @@
 /blog https://jdsteinbach.com 301!
-https://gallant-edison-65ab3c.netlify.com/* https://jamessteinbach.com/:splat 301!
+https://jamessteinbach.netlify.com/* https://jamessteinbach.com/:splat 301!
+https://jamessteinbach.netlify.app/* https://jamessteinbach.com/:splat 301!
