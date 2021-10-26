@@ -20,7 +20,7 @@ body {
 
     @for $i from 1 through 100 {
       &:nth-child(#{$i}) {
-        animation-delay: random(100) / 100 * 4s;
+        animation-delay: math.div(random(100), 100) * 4s;
       }
     }
   }
