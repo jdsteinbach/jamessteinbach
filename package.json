@@ -16,7 +16,7 @@
     "autoprefixer": "^10.3.7",
     "browser-sync": "^2.27.6",
     "cssnano": "^5.0.8",
-    "markdown-it": "^12.2.0",
+    "markdown-it": "^12.3.2",
     "postcss": "^8.3.11",
     "postcss-image-inliner": "^5.0.0",
     "sass": "^1.43.3"
