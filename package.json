@@ -12,14 +12,14 @@
   },
   "homepage": "https://github.com/jdsteinbach/jamessteinbach",
   "devDependencies": {
-    "@11ty/eleventy": "^0.12.1",
-    "autoprefixer": "^10.3.7",
-    "browser-sync": "^2.27.6",
-    "cssnano": "^5.0.8",
-    "markdown-it": "^12.2.0",
-    "postcss": "^8.3.11",
+    "@11ty/eleventy": "^1.0.1",
+    "autoprefixer": "^10.4.8",
+    "browser-sync": "^2.27.10",
+    "cssnano": "^5.1.12",
+    "markdown-it": "^13.0.1",
+    "postcss": "^8.4.16",
     "postcss-image-inliner": "^5.0.0",
-    "sass": "^1.43.3"
+    "sass": "^1.54.3"
   },
   "scripts": {
     "build": "npx @11ty/eleventy",

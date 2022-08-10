@@ -10,7 +10,6 @@ const fileName = 'main.scss'
 module.exports = class {
   async data () {
     const rawFilepath = path.join(__dirname, `${fileName}`)
-    console.log(rawFilepath)
     return {
       permalink: `styles/${fileName.replace('scss', 'css')}`,
       rawFilepath
@@ -32,7 +31,7 @@ module.exports = class {
       require('autoprefixer'),
       require('cssnano')
     ])
-    .process(sassToCss.css.toString())
+    .process(sassToCss.css.toString(), {from: undefined})
     .then(result => result.css)
   }
 }
