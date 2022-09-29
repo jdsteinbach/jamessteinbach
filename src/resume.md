@@ -26,7 +26,7 @@ Ph.D. New Testament Interpretation, BJU (2014)
 
 ## Experience
 
-### Senior Front-End Engineer II, [Auth0](https://auth0.com) (2020-present)
+### Staff Front-End Engineer, [Auth0](https://auth0.com) (2020-present)
 
 Improved accessibility in templates used by millions of users
 
