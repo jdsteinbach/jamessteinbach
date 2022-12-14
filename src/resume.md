@@ -26,7 +26,9 @@ Ph.D. New Testament Interpretation, BJU (2014)
 
 ## Experience
 
-### Staff Front-End Engineer, [Auth0](https://auth0.com) (2020-present)
+### Senior Front-End Engineer, [Slack](https://slack.com)/[Salesforce](https://salesforce.com) (2022-present)
+
+### Staff Front-End Engineer, [Auth0](https://auth0.com)/[Okta](https://okta.com) (2020-2022)
 
 Improved accessibility in templates used by millions of users
 
