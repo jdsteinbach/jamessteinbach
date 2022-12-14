@@ -26,7 +26,15 @@ Ph.D. New Testament Interpretation, BJU (2014)
 
 ## Experience
 
-### Senior UX Developer, [DockYard](https://dockyard.com) (2017–Present)
+### Staff Front-End Engineer, [Auth0](https://auth0.com) (2020-present)
+
+Improved accessibility in templates used by millions of users
+
+Built a no-code design customization tool for theming a white-labelled application
+
+Integrated new content and features to existing React and node apps
+
+### Senior UX Developer, [DockYard](https://dockyard.com) (2017-2020)
 
 Led team initiatives in Web Components, Shadow DOM, and CSS Custom Properties
 
