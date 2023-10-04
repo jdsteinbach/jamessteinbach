@@ -10,46 +10,10 @@ body {
   bottom: 0;
   width: 100vw;
   height: 100vh;
-
-  path {
-    animation-name: triangles;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-play-state: paused;
-    transform-origin: center;
-    will-change: opacity, transform;
-    position: relative;
-    z-index: 1;
-
-    @for $i from 1 through 100 {
-      &:nth-child(#{$i}) {
-        animation-delay: math.div(random(100), 100) * -4s;
-      }
-    }
-  }
-
-  &:hover path {
-    animation-play-state: running;
-  }
-}
-
-@keyframes triangles {
-  0%, 100% {
-    opacity: 1;
-    transform: none;
-  }
-  50% {
-    opacity: .85;
-    transform: scale(1.015);
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {
   .hex::before {
     transition: none !important;
-  }
-
-  path {
-    animation: none !important;
   }
 }
