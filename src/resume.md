@@ -14,7 +14,7 @@ permalink: /resume/
 
 ## Objective
 
-I build websites that load quickly, are user-friendly, and won't cost a fortune to maintain.
+To use modern technologies to create universally-usable digital products as part of a team where I can build strong relationships, grow professionally, and contribute to success.
 
 ## Education
 
@@ -27,6 +27,16 @@ Ph.D. New Testament Interpretation, BJU (2014)
 ## Experience
 
 ### Senior Front-End Engineer, [Slack](https://slack.com)/[Salesforce](https://salesforce.com) (2022-present)
+
+Worked closely with designers for pixel-precise UI polish: matched expectations from both complete design specs and async conversations
+
+Moved the team toward product release goals by contributing to multiple codebases: feature updates, bug fixes, and tech debt reduction
+
+Took ownership of team accessibility tickets: resolved them to improve customer experience and meet a team quarterly goal
+
+Took on monitoring responsibility for UI test alerts: triaged test failures, optimized test logic, and collaborated cross-functionally to improve stability
+
+Lead team initiative to clean up deprecated feature toggles: organized status data, tracked progress, took over specific clean-up tasks from other engineers
 
 ### Staff Front-End Engineer, [Auth0](https://auth0.com)/[Okta](https://okta.com) (2020-2022)
 
