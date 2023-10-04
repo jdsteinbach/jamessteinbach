@@ -17,10 +17,13 @@ body {
     animation-iteration-count: infinite;
     animation-play-state: paused;
     transform-origin: center;
+    will-change: opacity, transform;
+    position: relative;
+    z-index: 1;
 
     @for $i from 1 through 100 {
       &:nth-child(#{$i}) {
-        animation-delay: math.div(random(100), 100) * 4s;
+        animation-delay: math.div(random(100), 100) * -4s;
       }
     }
   }

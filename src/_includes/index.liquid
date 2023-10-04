@@ -18,7 +18,7 @@
     <![endif]-->
 
     <div class="container {{ title | downcase }}">
-      {{ content }}
+      {{ content | no_orphan }}
     </div>
 
     <svg

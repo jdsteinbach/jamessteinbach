@@ -1,13 +1,19 @@
+const markdownIt = require('markdown-it')
+const typogr = require('typogr')
+
 module.exports = eleventyConfig => {
   // Markdown
-  let markdownIt = require('markdown-it')
-
   eleventyConfig.setLibrary('md', markdownIt({
     html: true,
     breaks: true,
     linkify: true,
     typographer: true
   }))
+
+  // Filters
+  eleventyConfig.addFilter('no_orphan', (content) =>
+    typogr(String(content)).chain().widont().value()
+  )
 
   // Passthrough files
   eleventyConfig.addPassthroughCopy('src/pdf')
@@ -23,7 +29,7 @@ module.exports = eleventyConfig => {
   eleventyConfig.addPassthroughCopy('src/favicon.ico')
 
   // Watch
-  eleventyConfig.addWatchTarget('src/includes/sass/**/*.scss')
+  eleventyConfig.addWatchTarget('src/sass/**/*.scss')
 
   return {
     dir: {

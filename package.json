@@ -25,5 +25,8 @@
     "serve": "npx @11ty/eleventy --serve",
     "start": "npx @11ty/eleventy --serve",
     "serve:debug": "DEBUG=Eleventy* npx @11ty/eleventy --serve"
+  },
+  "dependencies": {
+    "typogr": "^0.6.8"
   }
 }
