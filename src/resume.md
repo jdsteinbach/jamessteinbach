@@ -2,15 +2,16 @@
 title: Resume
 layout: index
 permalink: /resume/
+bodyClass: resume
 ---
 # James Steinbach
 
-## Front-End Architect
+## Senior Software Engineer <br />Front-End Architect
 
 *   864.735.8537
-*   [@jdsteinbach](https://twitter.com/jdsteinbach)
 *   [jdsteinbach@gmail.com](mailto:jdsteinbach@gmail.com)
-*   [jamessteinbach.com](https://jamessteinbach.com)
+*   [jdsteinbach.com](https://jdsteinbach.com)
+*   [@jdsteinbach](https://twitter.com/jdsteinbach)
 
 ## Objective
 
@@ -26,7 +27,7 @@ Ph.D. New Testament Interpretation, BJU (2014)
 
 ## Experience
 
-### Senior Front-End Engineer, [Slack](https://slack.com)/[Salesforce](https://salesforce.com) (2022-present)
+### Senior Front-End Engineer, [Slack](https://slack.com)/[Salesforce](https://salesforce.com) (2022-2024)
 
 Worked closely with designers for pixel-precise UI polish: matched expectations from both complete design specs and async conversations
 

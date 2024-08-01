@@ -1,14 +1,13 @@
-$color-blue:  #5cacc4;
-$color-white: #fff;
-$color-gray:  #54524E;
-$color-black: #000;
+:root {
+  --rgb-black: 0, 0, 0;
+  --rgb-white: 255, 255, 255;
+  --rgb-gray: 84, 82, 78;
+  --rgb-blue: 92, 172, 196;
+  --color-black: rgb(var(--rgb-black));
+  --color-white: rgb(var(--rgb-white));
+  --color-gray: rgb(var(--rgb-gray));
+  --color-blue: rgb(var(--rgb-blue));
 
-$font-text:    Texta, sans-serif;
-$font-heading: $font-text;
-
-$breakpoints: (
-  small: 480px,
-  medium: 750px,
-  large: 960px,
-  wide: 1200px
-);
+  --font-text: Texta, sans-serif;
+  --font-heading: var(--font-text);
+}
