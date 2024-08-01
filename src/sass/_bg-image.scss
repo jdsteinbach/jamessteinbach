@@ -11,6 +11,19 @@ body {
   width: 100vw;
   height: 100vh;
   z-index: -1;
+  opacity: 0.35;
+
+  .resume & {
+    opacity: 0.15;
+  }
+
+  @include breakpoint(medium) {
+    opacity: 1;
+
+    .resume & {
+      opacity: 0.618;
+    }
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

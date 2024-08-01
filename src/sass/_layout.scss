@@ -10,24 +10,19 @@ body {
   max-width: 100vw;
   text-align: center;
   padding: 1rem;
-  position: relative;
   text-shadow: 0 .125em .125em rgba(var(--rgb-black), .625);
-  background: rgba(var(--rgb-gray), 0.65);
 
   &.resume {
     padding-top: 5vw;
-    background: rgba(var(--rgb-gray), 0.85);
   }
 
   @include breakpoint(medium) {
     max-width: 40em;
     justify-content: end;
     grid-template-columns: 62.5%;
-    background: none;
 
     &.resume {
       grid-template-columns: 50%;
-      background: none;
     }
   }
 }
