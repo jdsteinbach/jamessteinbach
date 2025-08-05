@@ -12,21 +12,19 @@
   },
   "homepage": "https://github.com/jdsteinbach/jamessteinbach",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy": "^3.1.2",
     "autoprefixer": "^10.4.19",
     "cssnano": "^7.0.4",
     "markdown-it": "^14.1.0",
     "postcss": "^8.4.40",
     "postcss-image-inliner": "^7.0.1",
-    "sass": "^1.77.8"
+    "sass": "^1.77.8",
+    "typogr": "^0.6.8"
   },
   "scripts": {
     "build": "npx @11ty/eleventy",
     "serve": "npx @11ty/eleventy --serve",
     "start": "npx @11ty/eleventy --serve",
     "serve:debug": "DEBUG=Eleventy* npx @11ty/eleventy --serve"
-  },
-  "dependencies": {
-    "typogr": "^0.6.8"
   }
 }
