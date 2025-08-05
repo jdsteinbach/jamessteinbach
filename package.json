@@ -16,7 +16,7 @@
     "autoprefixer": "^10.4.19",
     "cssnano": "^7.0.4",
     "markdown-it": "^14.1.0",
-    "postcss": "^8.4.40",
+    "postcss": "^8.5.6",
     "postcss-image-inliner": "^7.0.1",
     "sass": "^1.77.8",
     "typogr": "^0.6.8"
