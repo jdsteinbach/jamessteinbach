@@ -1,15 +1,17 @@
+@use 'mixins';
+
 :root {
   font-size: 1.125rem;
 
-  @include breakpoint(small) {
+  @include mixins.breakpoint(small) {
     font-size: 1.25rem;
   }
 
-  @include breakpoint(large) {
+  @include mixins.breakpoint(large) {
     font-size: 1.5rem;
   }
 
-  @include breakpoint(wide) {
+  @include mixins.breakpoint(wide) {
     font-size: 1.875rem;
   }
 }
@@ -28,12 +30,16 @@ body {
   font-feature-settings: "kern", "liga", "clig", "dlig", "swsh", "calt";
 }
 
+h1, h2, h3, h4, h5, h6, p, li {
+  text-wrap: pretty;
+}
+
 h1 {
   font-size: 1.5rem;
   font-weight: inherit;
   margin: 0;
 
-  @include breakpoint(small) {
+  @include mixins.breakpoint(small) {
     font-size: 2rem;
   }
 
@@ -56,7 +62,7 @@ h1 {
   font-weight: bold;
   font-size: 1.618em;
 
-  @include breakpoint(medium) {
+  @include mixins.breakpoint(medium) {
     display: inline-block;
   }
 }
@@ -66,7 +72,7 @@ h1 {
   font-weight: inherit;
   margin: 0 0 1rem;
 
-  @include breakpoint(small) {
+  @include mixins.breakpoint(small) {
     font-size: 1.5rem;
   }
 

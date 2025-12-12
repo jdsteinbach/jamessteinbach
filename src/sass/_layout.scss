@@ -1,3 +1,5 @@
+@use 'mixins';
+
 body {
   margin-right: auto;
   margin-left: auto;
@@ -16,7 +18,7 @@ body {
     padding-top: 5vw;
   }
 
-  @include breakpoint(medium) {
+  @include mixins.breakpoint(medium) {
     max-width: 40em;
     justify-content: end;
     grid-template-columns: 62.5%;

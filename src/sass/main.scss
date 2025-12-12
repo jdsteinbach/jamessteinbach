@@ -1,12 +1,12 @@
 @use "sass:math";
 
-@import 'mixins';
-@import 'normalize.min';
-@import 'variables';
-@import 'fonts';
-@import 'typography';
-@import 'layout';
-@import 'media';
-@import 'bg-image';
-@import 'misc';
-@import 'print';
+@use 'mixins';
+@use 'normalize.min';
+@use 'variables';
+@use 'fonts';
+@use 'typography';
+@use 'layout';
+@use 'media';
+@use 'bg-image';
+@use 'misc';
+@use 'print';

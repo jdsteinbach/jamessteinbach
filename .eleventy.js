@@ -1,5 +1,4 @@
 const markdownIt = require('markdown-it')
-const typogr = require('typogr')
 
 module.exports = eleventyConfig => {
   // Markdown
@@ -9,11 +8,6 @@ module.exports = eleventyConfig => {
     linkify: true,
     typographer: true
   }))
-
-  // Filters
-  eleventyConfig.addFilter('no_orphan', (content) =>
-    typogr(String(content)).chain().widont().value()
-  )
 
   // Passthrough files
   eleventyConfig.addPassthroughCopy('src/pdf')

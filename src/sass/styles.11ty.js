@@ -17,21 +17,13 @@ module.exports = class {
   }
 
   async render ({ rawFilepath }) {
-    const sassToCss = sass.renderSync({
-      file: rawFilepath
-    })
+    const sassToCss = await sass.compileAsync(rawFilepath)
 
     return await postcss([
-      require('postcss-image-inliner')({
-        assetPaths: [
-          path.join(__dirname, `../_includes/img`)
-        ],
-        maxFileSize: 0
-      }),
       require('autoprefixer'),
       require('cssnano')
     ])
-    .process(sassToCss.css.toString(), {from: undefined})
+    .process(sassToCss.css, {from: undefined})
     .then(result => result.css)
   }
 }

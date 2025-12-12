@@ -27,6 +27,21 @@ Ph.D. New Testament Interpretation, BJU (2014)
 
 ## Experience
 
+### Senior Front-End Engineer, [StrongDM](https://strongdm.com) (2024-present)
+
+Worked with CTO to turn a feature idea into a working product:
+
+* converted broad goals to visually-complete dashboard UI
+* designed and implemented animations to convey event stream analysis results
+* optimized React components to animate performantly
+* designed and implemented accessible graphs and charts for data visualization
+
+Contributed core implementation work to complete a full Electron app refactor:
+
+* resolved a backlog of defects to improve stability and reliability
+* expanded test coverage significantly for all app sub-systems: process, server, and renderer
+* planned additional linting and automation tools to ensure ongoing release stability and backward compatibility
+
 ### Senior Front-End Engineer, [Slack](https://slack.com)/[Salesforce](https://salesforce.com) (2022-2024)
 
 Worked closely with designers for pixel-precise UI polish: matched expectations from both complete design specs and async conversations
