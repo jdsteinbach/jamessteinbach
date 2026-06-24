@@ -221,4 +221,4 @@ Expanded existing site with focus on content-driven page design
 
 Available on request.
 
-_[Download this resume as a PDF](https://jamessteinbach.com/pdf/Resume.pdf)_
+_[Download this resume as a PDF](/pdf/JamesSteinbachResume.pdf)_
