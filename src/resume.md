@@ -4,14 +4,15 @@ layout: index
 permalink: /resume/
 bodyClass: resume
 ---
+
 # James Steinbach
 
 ## Senior Software Engineer <br />Front-End Architect
 
-*   864.735.8537
-*   [jdsteinbach@gmail.com](mailto:jdsteinbach@gmail.com)
-*   [jdsteinbach.com](https://jdsteinbach.com)
-*   [@jdsteinbach](https://twitter.com/jdsteinbach)
+- 864.735.8537
+- [jdsteinbach@gmail.com](mailto:jdsteinbach@gmail.com)
+- [jdsteinbach.com](https://jdsteinbach.com)
+- [@jdsteinbach](https://twitter.com/jdsteinbach)
 
 ## Objective
 
@@ -27,20 +28,20 @@ Ph.D. New Testament Interpretation, BJU (2014)
 
 ## Experience
 
-### Senior Front-End Engineer, [StrongDM](https://strongdm.com) (2024-present)
+### Senior Front-End Engineer, [StrongDM](https://strongdm.com)/[Delinea](https://delinea.com) (2024-present)
 
 Worked with CTO to turn a feature idea into a working product:
 
-* converted broad goals to visually-complete dashboard UI
-* designed and implemented animations to convey event stream analysis results
-* optimized React components to animate performantly
-* designed and implemented accessible graphs and charts for data visualization
+- converted broad goals to visually-complete dashboard UI
+- designed and implemented animations to convey event stream analysis results
+- optimized React components to animate performantly
+- designed and implemented accessible graphs and charts for data visualization
 
 Contributed core implementation work to complete a full Electron app refactor:
 
-* resolved a backlog of defects to improve stability and reliability
-* expanded test coverage significantly for all app sub-systems: process, server, and renderer
-* planned additional linting and automation tools to ensure ongoing release stability and backward compatibility
+- resolved a backlog of defects to improve stability and reliability
+- expanded test coverage significantly for all app sub-systems: process, server, and renderer
+- planned additional linting and automation tools to ensure ongoing release stability and backward compatibility
 
 ### Senior Front-End Engineer, [Slack](https://slack.com)/[Salesforce](https://salesforce.com) (2022-2024)
 
@@ -74,16 +75,16 @@ Implemented advanced ARIA patterns for interactive components
 
 #### Featured client work (under NDA)
 
-* Built custom media playback Web Components in StencilJS
-* Built embeddable data-driven microsite in StencilJS
-* Set up Storybook to run instances of components for development and testing
-* Maintained & added features to international product site
+- Built custom media playback Web Components in StencilJS
+- Built embeddable data-driven microsite in StencilJS
+- Set up Storybook to run instances of components for development and testing
+- Maintained & added features to international product site
 
 #### Featured Project: [HighTide.earth](https://hightide.earth)
 
-* Resolved scroll performance issues on mobile devices
-* Styled moon phase indicator to respond to data-driven changes
-* Developed performant gradient animation for dynamic app background
+- Resolved scroll performance issues on mobile devices
+- Styled moon phase indicator to respond to data-driven changes
+- Developed performant gradient animation for dynamic app background
 
 ### CEO/Owner, Summit Web Services (2017–Present)
 
@@ -99,17 +100,17 @@ Set and managed estimates and deadlines in collaboration with client support rep
 
 #### Featured Project: emerge.auburn.edu
 
-* Developed WordPress theme to meet WCAG 2.0 accessibility requirements
-* Fully keyboard navigable site: including sliders with nested focusable elements and a tab UI with embedded modal content
-* Managed color compliance a11y issues and educated design team
-* Built a CSS/JS UI pattern that uses aria attributes
-* Advanced animation / content choreography on blog archive hover states
+- Developed WordPress theme to meet WCAG 2.0 accessibility requirements
+- Fully keyboard navigable site: including sliders with nested focusable elements and a tab UI with embedded modal content
+- Managed color compliance a11y issues and educated design team
+- Built a CSS/JS UI pattern that uses aria attributes
+- Advanced animation / content choreography on blog archive hover states
 
 #### Featured Project: championtribes.com
 
-* Integrated 3rd party authentication with WordPress site
-* Integrated multiple custom actions (including shipping API calls and automatic account creation) into WooCommerce hooks
-* Developed an OOP class system for managing 3rd party APIs and custom tables, with custom endpoints exposed to both template PHP and client-side JS
+- Integrated 3rd party authentication with WordPress site
+- Integrated multiple custom actions (including shipping API calls and automatic account creation) into WooCommerce hooks
+- Developed an OOP class system for managing 3rd party APIs and custom tables, with custom endpoints exposed to both template PHP and client-side JS
 
 ### Front-End Developer, HigherEducation.com (2015–2017)
 
@@ -121,17 +122,17 @@ Developed and implemented A/B tests to increase site revenue
 
 #### Featured Project: [psychology.org](http://psychology.org)
 
-* Built a custom WordPress theme with Sass and CSS
-* Animated home page header & various UI elements
-* Developed reusable style patterns for use across page templates
-* WordPress custom Ajax endpoint for loading and modifying a custom post type dataset
+- Built a custom WordPress theme with Sass and CSS
+- Animated home page header & various UI elements
+- Developed reusable style patterns for use across page templates
+- WordPress custom Ajax endpoint for loading and modifying a custom post type dataset
 
 #### Featured Project: [nursing.org](http://nursing.org)
 
-* Custom YouTube embedding class designed to accommodate multiple markup patterns
-* Integrated Algolia-based JS app into WordPress templates
-* Used ACF to build a fully modular content management system for WordPress pages
-* Wrote a class to manage ACF-stored custom fields with less server-side overhead
+- Custom YouTube embedding class designed to accommodate multiple markup patterns
+- Integrated Algolia-based JS app into WordPress templates
+- Used ACF to build a fully modular content management system for WordPress pages
+- Wrote a class to manage ACF-stored custom fields with less server-side overhead
 
 ### Senior Front-End Developer, The Idea People (2014–2015)
 
@@ -141,20 +142,20 @@ Collaborated with several other team members using Git for version control
 
 #### Featured Project: [rollten.com](http://rollten.com)
 
-* Animated SVGs for neon lights on home page and in footer
-* Designed and developed custom animation on “Events” page
+- Animated SVGs for neon lights on home page and in footer
+- Designed and developed custom animation on “Events” page
 
 #### Featured Project: destination.socialtopias.com
 
-* Refactored 10k+ lines of Sass resulting in more than 30% total CSS reduction
-* Improved keyboard accessibility for all form elements
-* Troubleshot issues in Ember view files
+- Refactored 10k+ lines of Sass resulting in more than 30% total CSS reduction
+- Improved keyboard accessibility for all form elements
+- Troubleshot issues in Ember view files
 
 #### Featured Project: jumpshotgenie.com
 
-* Rebuilt existing WP theme, moving away from Bootstrap to a lightweight custom grid system
-* Coded custom animation, including an animated Flexbox accordion
-* Styled accompanying WordPress site as an app launched through PhoneGap
+- Rebuilt existing WP theme, moving away from Bootstrap to a lightweight custom grid system
+- Coded custom animation, including an animated Flexbox accordion
+- Styled accompanying WordPress site as an app launched through PhoneGap
 
 ### Director of Web Development, Drum Creative (2013–2014)
 
@@ -164,12 +165,12 @@ Managed development projects and oversaw additional development staff
 
 #### Featured Project: [lifeandsafety.com](http://lifeandsafety.com)
 
-* Built a custom WordPress theme with Sass and CSS
-* Wrote custom jQuery and CSS3 animations to create dynamic homepage
+- Built a custom WordPress theme with Sass and CSS
+- Wrote custom jQuery and CSS3 animations to create dynamic homepage
 
 ### Front-End Developer, Drum Creative (2012–2013)
 
-Developed 1–2 custom WordPress themes per month using _s theme with CSS
+Developed 1–2 custom WordPress themes per month using \_s theme with CSS
 
 Configured custom post types and fields to create powerful WP sites
 
@@ -177,8 +178,8 @@ Lead design team in implementing responsive web design workflow
 
 #### Featured Project: canalinsurance.com
 
-* Used Sass to manage advanced CSS3 animation/layout with fallback for older browsers
-* Wrote custom jQuery/JavaScript interaction for “Find Agent” feature.
+- Used Sass to manage advanced CSS3 animation/layout with fallback for older browsers
+- Wrote custom jQuery/JavaScript interaction for “Find Agent” feature.
 
 ### Web Designer / Developer, Summit Web Services (2010–2014)
 
@@ -188,7 +189,7 @@ Optimized sites for multiple devices with responsive layout
 
 #### Featured Project: [dissertation.jamessteinbach.com](https://dissertation.jamessteinbach.com)
 
-* Wrote custom jQuery interactivity for displaying detailed content on a single-page WordPress site
+- Wrote custom jQuery interactivity for displaying detailed content on a single-page WordPress site
 
 ### Site Manager, SacredAudio.com (2008–2011)
 
@@ -204,17 +205,17 @@ Expanded existing site with focus on content-driven page design
 
 ### Technology
 
-* HTML5 + CSS(3): animation, advanced layout, advanced design - examples at [codepen.io/jdsteinbach](https://codepen.io/jdsteinbach)
-* WordPress: custom theme and plugin development
-* Sass: extended default functions with Breakpoint, Susy, Compass, Bourbon, and Neat Sass: wrote custom mixins and functions - examples at [gist.github.com/jdsteinbach](https://gist.github.com/jdsteinbach)
-* jQuery + JavaScript: add interactivity to sites (see examples in “Experience” section)
-* PHP + MySQL: manage my own development server (LAMP stack)
+- HTML5 + CSS(3): animation, advanced layout, advanced design - examples at [codepen.io/jdsteinbach](https://codepen.io/jdsteinbach)
+- WordPress: custom theme and plugin development
+- Sass: extended default functions with Breakpoint, Susy, Compass, Bourbon, and Neat Sass: wrote custom mixins and functions - examples at [gist.github.com/jdsteinbach](https://gist.github.com/jdsteinbach)
+- jQuery + JavaScript: add interactivity to sites (see examples in “Experience” section)
+- PHP + MySQL: manage my own development server (LAMP stack)
 
 ### Communication
 
-* Customer Care: Phone and Email Support
-* Advanced Research and Technical Writing: [jdsteinbach.com](https://jdsteinbach.com) | [sitepoint.com/author/jsteinbach](https://sitepoint.com/author/jsteinbach)
-* Public Speaking: several local Meetups, online WP Summit
+- Customer Care: Phone and Email Support
+- Advanced Research and Technical Writing: [jdsteinbach.com](https://jdsteinbach.com) | [sitepoint.com/author/jsteinbach](https://sitepoint.com/author/jsteinbach)
+- Public Speaking: several local Meetups, online WP Summit
 
 ### References
 
